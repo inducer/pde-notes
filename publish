@@ -1,2 +1,2 @@
 #! /bin/sh
-scp part2.tm part2.pdf mystyle.ts u36612815@tiker.net:data/site-codes/tiker.net/files/pde1
+scp part2.tm part2.pdf mystyle.ts tikernet@tiker.net:drupal-files/news.tiker.net/download/academic/notes/pde
