@@ -3,13 +3,90 @@
 <style|<tuple|article|mystyle|number-long-article>>
 
 <\body>
+  <doc-data|<doc-title|PDE 1 -- Second half>|<doc-author-data|<author-name|Govind
+  Menon>>>
+
+  <\table-of-contents|toc>
+    <vspace*|1fn><with|font-series|bold|math-font-series|bold|Table of
+    contents> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <no-break><pageref|auto-1><vspace|0.5fn>
+
+    <vspace*|1fn><with|font-series|bold|math-font-series|bold|1<space|2spc>1-D
+    Wave Equation> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <no-break><pageref|auto-2><vspace|0.5fn>
+
+    <with|par-left|1.5fn|1.1<space|2spc>Boundary conditions
+    <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <no-break><pageref|auto-4>>
+
+    <with|par-left|1.5fn|1.2<space|2spc>Method of Spherical Means
+    <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <no-break><pageref|auto-11>>
+
+    <with|par-left|1.5fn|1.3<space|2spc>Wave equation in
+    <with|mode|math|\<bbb-R\><rsup|n>> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <no-break><pageref|auto-12>>
+
+    <with|par-left|1.5fn|1.4<space|2spc>Method of spherical means
+    <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <no-break><pageref|auto-14>>
+
+    <with|par-left|1.5fn|1.5<space|2spc>Hadamard's Method of Descent
+    <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <no-break><pageref|auto-18>>
+
+    <with|par-left|1.5fn|1.6<space|2spc>Hadamard's Solution for all odd
+    <with|mode|math|n\<geqslant\>3> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <no-break><pageref|auto-20>>
+
+    <vspace*|1fn><with|font-series|bold|math-font-series|bold|2<space|2spc>Distributions>
+    <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <no-break><pageref|auto-21><vspace|0.5fn>
+
+    <with|par-left|1.5fn|2.1<space|2spc>The Schwartz Class
+    <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <no-break><pageref|auto-22>>
+
+    <with|par-left|1.5fn|2.2<space|2spc>Fourier Transform
+    <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <no-break><pageref|auto-23>>
+
+    <with|par-left|3fn|2.2.1<space|2spc>Basic Estimates
+    <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <no-break><pageref|auto-24>>
+
+    <with|par-left|3fn|2.2.2<space|2spc>Symmetries and the Fourier Transform
+    <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <no-break><pageref|auto-25>>
+
+    <with|par-left|3fn|2.2.3<space|2spc>Inversion Formula
+    <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <no-break><pageref|auto-26>>
+
+    <vspace*|1fn><with|font-series|bold|math-font-series|bold|3<space|2spc>More
+    about the Wave Equation> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <no-break><pageref|auto-27><vspace|0.5fn>
+
+    <with|par-left|1.5fn|3.1<space|2spc>Duhamel's Principle
+    <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <no-break><pageref|auto-28>>
+
+    <with|par-left|1.5fn|3.2<space|2spc>Hyperbolicity and the Standard
+    Problem <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <no-break><pageref|auto-29>>
+  </table-of-contents>
+
+  \;
+
+  Send corrections to <with|font-family|tt|kloeckner@dam.brown.edu>.
+
   <section|1-D Wave Equation>
 
   <\equation>
     <label|eq:1d-wave>u<rsub|t t>=c<rsup|2>u<rsub|x x>=0
   </equation>
 
-  for <with|mode|math|x\<in\>\<bbb-R\>> and <with|mode|math|t\<gtr\>0> with
+  for <with|mode|math|x\<in\>\<bbb-R\>> an d <with|mode|math|t\<gtr\>0> with
   <with|mode|math|u(x,0)=f(x)>, <with|mode|math|u<rsub|t>(x,0)=g(x)>.
   D'Alembert's formula:
 
@@ -453,7 +530,7 @@
 
   <\equation*>
     <big|int><rsub|\|y\|=c*t>e<rsup|-i\<xi\>\<cdot\>y>d
-    S<rsub|y>=<frac|sinc(c*t\|\<xi\>\|)|c\|\<xi\>\|>.
+    S<rsub|y>=<frac|sin(c*t\|\<xi\>\|)|c\|\<xi\>\|>.
   </equation*>
 
   <\remark>
@@ -559,7 +636,7 @@
   <with|mode|math|<wide|x|~>=(x,x<rsub|3>)\<in\>\<bbb-R\><rsup|3>>. If
   <with|mode|math|h:\<bbb-R\><rsup|2>\<rightarrow\>\<bbb-R\>>, define
   <with|mode|math|<wide|h|~>:\<bbb-R\><rsup|3>\<rightarrow\>\<bbb-R\>> by
-  <with|mode|math|<wide|h|~>(<wide|x|~>)=<wide|h|~>((x,x<rsub|3>)=h(x)>.
+  <with|mode|math|<wide|h|~>(<wide|x|~>)=<wide|h|~>((x,x<rsub|3>))=h(x)>.
   Suppose <with|mode|math|u> solves <with|mode|math|\<partial\><rsub|t><rsup|2>u-c<rsup|2>\<Delta\><rsub|x>u=0>
   for <with|mode|math|x\<in\>\<bbb-R\><rsup|2>> and
   <with|mode|math|t\<gtr\>0> with <with|mode|math|u(x,0)=f(x)> and
@@ -633,7 +710,7 @@
   <subsection|Hadamard's Solution for all odd
   <with|mode|math|n\<geqslant\>3>>
 
-  [cf. Evans, 4.3?] <with|mode|math|n=2k+1>, <with|mode|math|k\<geqslant\>1>.
+  [cf. Evans, 2.4] <with|mode|math|n=2k+1>, <with|mode|math|k\<geqslant\>1>.
   <with|mode|math|k=(n-1)/2>, <with|mode|math|c=1>. The general formula is
 
   <\equation*>
@@ -662,7 +739,7 @@
   <\eqnarray*>
     <tformat|<table|<row|<cell|v(x,t)>|<cell|\<assign\>>|<cell|<frac|1|(4\<pi\>t)<rsup|1/2>><big|int><rsub|\<bbb-R\>>e<rsup|-s<rsup|2>/4
     t>u(x,s)d s>>|<row|<cell|>|<cell|=>|<cell|<big|int><rsub|\<bbb-R\>>k(s,t)u(x,s)*d
-    s>>>>
+    s<space|1em>(\<ast\>)>>>>
   </eqnarray*>
 
   Find solution for the heat equation in 1D. Use that
@@ -685,12 +762,11 @@
     y>>|<row|<cell|>|<cell|=>|<cell|<frac|1|(4\<pi\>t)<rsup|n/2>><big|int><rsub|0><rsup|\<infty\>>e<rsup|-r<rsup|2>/4t>r<rsup|n-1><superpose|<big|int>|
     ->f(x-r\<omega\>)\<cdot\>d\<omega\>*d
     r>>|<row|<cell|>|<cell|=>|<cell|<frac|\<omega\><rsub|n>|(4\<pi\>t)<rsup|n/2>><big|int><rsub|0><rsup|\<infty\>>e<rsup|-r<rsup|2>/4t>r<rsup|n-1>M<rsub|f>(x,r)d
-    r>>>>
+    r<space|1em>(#)>>>>
   </eqnarray*>
 
   Change variables using <with|mode|math|\<lambda\>=1/4t> and equate
-  <with|mode|math|(\<ast\>)> and <with|mode|math|(#)> (<with|color|red|what
-  are <with|mode|math|\<ast\>> and <with|mode|math|#>?>)
+  <with|mode|math|(\<ast\>)> and <with|mode|math|(#)>:
 
   <\equation*>
     <big|int><rsub|0><rsup|\<infty\>>e<rsup|-\<lambda\>r<rsup|2>>u(x,r)d
@@ -701,7 +777,7 @@
   Then, use the Laplace transform for <with|mode|math|h\<in\>L<rsup|1>(\<bbb-R\><rsub|+>)>:
 
   <\equation*>
-    h<rsup|#>(\<lambda\>)=<big|int><rsub|0><rsup|\<infty\>>e<rsup|-\<lambda\>\<varphi\>>h(p)d\<varphi\>.
+    h<rsup|#>(\<lambda\>)=<big|int><rsub|0><rsup|\<infty\>>e<rsup|-\<lambda\>\<varphi\>>h(\<varphi\>)d\<varphi\>.
   </equation*>
 
   Basic fact: <with|mode|math|h<rsup|#>> is invertible. Observe that
@@ -953,7 +1029,7 @@
     with rapid decay:
 
     <\equation*>
-      \<\|\|\>\<varphi\>\<\|\|\><rsub|\<alpha\>,\<beta\>>\<assign\>sup<rsub|x>\|x<rsup|\<alpha\>>\<partial\><rsup|\<beta\>>(x)\|\<less\>\<infty\>
+      \<\|\|\>\<varphi\>\<\|\|\><rsub|\<alpha\>,\<beta\>>\<assign\>sup<rsub|x>\|x<rsup|\<alpha\>>\<partial\><rsup|\<beta\>>\<varphi\>(x)\|\<less\>\<infty\>
     </equation*>
 
     for all multiindices <with|mode|math|\<alpha\>,\<beta\>>. Topology on
@@ -1172,7 +1248,7 @@
     consider <with|mode|math|\<varphi\><rsub|N>\<assign\>\<varphi\>\<eta\><rsub|N>>.
 
     <\eqnarray*>
-      <tformat|<table|<row|<cell|\<partial\><rsup|\<alpha\>>\<varphi\><rsub|n>>|<cell|=>|<cell|\<partial\><rsup|\<alpha\>>(\<varphi\>\<eta\><rsub|N>)=<big|sum><rsub|\|\<alpha\><rprime|'>\|\<leqslant\>\|\<alpha\>\|>\<partial\><rsup|\<alpha\><rprime|'>>\<varphi\>\<partial\><rsup|\<alpha\>-\<alpha\><rprime|'>>\<eta\><rsub|N>.>>>>
+      <tformat|<table|<row|<cell|\<partial\><rsup|\<alpha\>>\<varphi\><rsub|N>>|<cell|=>|<cell|\<partial\><rsup|\<alpha\>>(\<varphi\>\<eta\><rsub|N>)=<big|sum><rsub|\|\<alpha\><rprime|'>\|\<leqslant\>\|\<alpha\>\|>\<partial\><rsup|\<alpha\><rprime|'>>\<varphi\>\<partial\><rsup|\<alpha\>-\<alpha\><rprime|'>>\<eta\><rsub|N>.>>>>
     </eqnarray*>
 
     So <with|mode|math|\<\|\|\>x<rsup|\<beta\>>\<partial\><rsup|\<alpha\>>\<varphi\><rsub|N>\<\|\|\><rsub|L<rsup|\<infty\>>>\<less\>\<infty\>>.
@@ -1245,7 +1321,7 @@
     <em|Step 3:> <em|``Maximal inequality''>, i.e.
 
     <\equation*>
-      \<\|\|\>f\<ast\>\<eta\><rsub|N>\<\|\|\><rsub|L<rsup|p>>\<leqslant\>C\<\|\|\>f\<\|\|\>L<rsup|p>,
+      \<\|\|\>f\<ast\>\<eta\><rsub|N>\<\|\|\><rsub|L<rsup|p>>\<leqslant\>C\<\|\|\>f\<\|\|\><rsub|L<rsup|p>>,
     </equation*>
 
     which we obtain by Young's inequality.
@@ -1472,7 +1548,7 @@
   <\corollary>
     A distribution <with|mode|math|L\<in\>D<rprime|'>> defines a tempered
     distribution<with|mode|math|\<Leftrightarrow\>>there exist
-    <with|mode|math|c>, <with|mode|math|N> such that
+    <with|mode|math|C>, <with|mode|math|N> such that
     (<reference|eq:cont-tempered>) holds for
     <with|mode|math|\<varphi\>\<in\>\<cal-S\>(\<bbb-R\><rsup|n>)>.
   </corollary>
@@ -1556,7 +1632,7 @@
     <\theorem>
       <with|mode|math|D(\<bbb-R\><rsup|n>)> is dense in
       <with|mode|math|D<rprime|'>(\<bbb-R\><rsup|n>)>. That is, if
-      <with|mode|math|f> is a distribution, then there exists a sequence of
+      <with|mode|math|L> is a distribution, then there exists a sequence of
       <with|mode|math|L<rsub|k>\<in\>D> such that
       <with|mode|math|L<rsub|k>\<rightarrow\>L> in
       <with|mode|math|D<rprime|'>>.
@@ -1653,8 +1729,9 @@
         <item><with|mode|math|\<partial\><rsup|\<alpha\>>(L\<ast\>\<eta\>)<above|=|D<rprime|'>>\<partial\><rsup|\<alpha\>>L\<ast\>\<eta\><above|=|D<rprime|'>>L\<ast\>\<partial\><rsup|\<alpha\>>\<eta\>>.
       </enumerate>
 
-      <em|Proof of Theorem:> Fix <with|mode|math|\<eta\>\<in\>D(\<bbb-R\><rsup|n>)>
-      with <with|mode|math|<big|int><rsub|\<bbb-R\><rsup|n>>\<eta\>(x)\<mathd\>x=1>.
+      <em|Proof of Theorem:> Fix <with|mode|math|L\<in\>D<rprime|'>(\<bbb-R\><rsup|n>)>.
+      Fix <with|mode|math|\<eta\>\<in\>D(\<bbb-R\><rsup|n>)> with
+      <with|mode|math|<big|int><rsub|\<bbb-R\><rsup|n>>\<eta\>(x)\<mathd\>x=1>.
       Let <with|mode|math|\<eta\><rsub|m>(x)=m<rsup|n>\<eta\>(m*x)>. Then
 
       <\equation*>
@@ -1705,7 +1782,7 @@
 
   <\proposition>
     Suppose <with|mode|math|K:\<cal-S\>\<rightarrow\>\<cal-S\>> is linear and
-    continuous. Suppose that <with|mode|math|K<rsub|t>\|<rsub|S>> is
+    continuous. Suppose that <with|mode|math|K<rsub|t>\|<rsub|\<cal-S\>>> is
     continuous. Then, there exists a unique, continuous extension of
     <with|mode|math|K<rsup|t>> to <with|mode|math|\<cal-S\><rprime|'>>.
   </proposition>
@@ -1715,7 +1792,7 @@
     is continuous.
   </corollary>
 
-  Let's go back to PDE now. Examples:
+  Examples:
 
   <\enumerate>
     <item><with|mode|math|\<cal-F\>\<delta\>=1/(2\<pi\>)<rsup|n/2>>.
@@ -1734,6 +1811,8 @@
 
   Prove (1) and (2) by testing against Gaussians.
 
+  <section|More about the Wave Equation>
+
   <subsection|Duhamel's Principle>
 
   Consider constant coefficient linear PDE
@@ -1746,9 +1825,9 @@
   <with|mode|math|m> is the order of the equation,
   <with|mode|math|c<rsub|m,\<alpha\>>\<in\>\<bbb-R\>>.
 
-  Shorthand <with|mode|math|P(D,\<tau\>)u=0>. Herre
+  Shorthand <with|mode|math|P(D,\<tau\>)u=0>. Here
   <with|mode|math|D=(\<partial\><rsub|\<alpha\><rsub|1>>,\<ldots\>,\<partial\><rsub|\<alpha\><rsub|n>>)>
-  and <with|mode|math|\<tau\>=\<partial\><rsub|t>>. Differentiation operators
+  and <with|mode|math|\<tau\>=\<partial\><rsub|t>> differentiation operators.
 
   <\equation*>
     P(D,\<tau\>)=\<tau\><rsup|m>+\<tau\><rsup|m-1>P<rsub|1>(D)+\<cdots\>+P<rsub|m>(D).
@@ -1803,7 +1882,7 @@
   This gives us
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|P(D,z)u(x,t)>|<cell|=>|<cell|<big|int><rsub|0><rsup|t>P(D,\<tau\>)U(x,t,s)\<mathd\>s+(\<tau\><rsup|m-1>+\<tau\><rsup|m-2>P<rsub|1>(D)+\<cdots\>+P<rsub|n-1>(D))U(x,t,t)>>|<row|<cell|>|<cell|=>|<cell|0+\<omega\>(x,t)+0>>>>
+    <tformat|<table|<row|<cell|P(D,\<tau\>)u(x,t)>|<cell|=>|<cell|<big|int><rsub|0><rsup|t>P(D,\<tau\>)U(x,t,s)\<mathd\>s+(\<tau\><rsup|m-1>+\<tau\><rsup|m-2>P<rsub|1>(D)+\<cdots\>+P<rsub|n-1>(D))U(x,t,t)>>|<row|<cell|>|<cell|=>|<cell|0+\<omega\>(x,t)+0>>>>
   </eqnarray*>
 
   as desired. Similarly, getting rid of non-standard initial conditions
@@ -1840,6 +1919,8 @@
     <with|mode|math|(=0)>>=f<rsub|0>.
   </equation*>
 
+  <subsection|Hyperbolicity and the Standard Problem>
+
   Henceforth, only consider the standard problem
 
   <\eqnarray*>
@@ -1868,7 +1949,7 @@
   with initial conditions
 
   <\equation*>
-    \<tau\><rsup|k>Z(\<xi\>,0)=0<space|1em>(0\<leqslant\>k\<leqslant\>m-1),<space|1em>\<tau\><rsup|m-1>Z(\<xi\>,0)=1.
+    \<tau\><rsup|k>Z(\<xi\>,0)=0<space|1em>(0\<leqslant\>k\<leqslant\>m-2),<space|1em>\<tau\><rsup|m-1>Z(\<xi\>,0)=1.
   </equation*>
 
   This is a constant coefficients ODE, an analytic solution for it exists for
@@ -2097,10 +2178,6 @@
 
     <em|Step 4.> This implies that
 
-    <\equation*>
-      \<leqslant\>
-    </equation*>
-
     <\eqnarray*>
       <tformat|<table|<row|<cell|\|\<partial\><rsup|\<alpha\>>\<tau\><rsup|k>u(x,t)\|>|<cell|\<leqslant\>>|<cell|<frac|1|(2\<pi\>)<rsup|n/2>><big|int><rsub|\<bbb-R\><rsup|n>>\|\<tau\><rsup|k>Z(\<xi\>,t)\|*\|\<xi\>\|<rsup|\<alpha\>><wide|g|^>(\<xi\>)\<mathd\>\<xi\>.>>|<row|<cell|>|<cell|\<leqslant\>>|<cell|<frac|C*M<rsup|k>e<rsup|(1+c)t>|(2\<pi\>)<rsup|n/2>><big|int><rsub|\<bbb-R\><rsup|n>>(1+\|\<xi\>\|)<rsup|k>\|\<xi\>\|<rsup|\<alpha\>>\|<wide|g|^>\|(\<xi\>)\<mathd\>\<xi\>\<less\>\<infty\>>>>>
     </eqnarray*>
@@ -2142,8 +2219,6 @@
     <with|mode|math|\<lambda\>=\<pm\>\|\<xi\>\|><with|mode|math|\<rightarrow\>>
     Growth estimate can't be improved.
   </example>
-
-  <with|color|red|Gårding stated wrongly!!!>
 
   <em|Question:> Is a hyperbolic equation hyperbolic in the sense that it is
   ``wavelike'' (meaning if <with|mode|math|g> has compact support,
@@ -2344,142 +2419,157 @@
 
 <\references>
   <\collection>
-    <associate|auto-1|<tuple|1|1>>
-    <associate|auto-10|<tuple|1.2|4>>
-    <associate|auto-11|<tuple|1.3|4>>
-    <associate|auto-12|<tuple|1.8|5>>
-    <associate|auto-13|<tuple|1.4|6>>
-    <associate|auto-14|<tuple|1.9|8>>
-    <associate|auto-15|<tuple|1.10|8>>
-    <associate|auto-16|<tuple|1.11|9>>
-    <associate|auto-17|<tuple|1.5|10>>
-    <associate|auto-18|<tuple|1.12|10>>
-    <associate|auto-19|<tuple|1.6|11>>
-    <associate|auto-2|<tuple|1.1|1>>
-    <associate|auto-20|<tuple|2|12>>
-    <associate|auto-21|<tuple|2.1|13>>
-    <associate|auto-22|<tuple|2.2|14>>
-    <associate|auto-23|<tuple|2.2.1|14>>
-    <associate|auto-24|<tuple|2.2.2|15>>
-    <associate|auto-25|<tuple|2.2.3|15>>
-    <associate|auto-26|<tuple|2.3|21>>
-    <associate|auto-27|<tuple|2.1|?>>
-    <associate|auto-28|<tuple|2.2|?>>
-    <associate|auto-29|<tuple|2.3|?>>
+    <associate|auto-1|<tuple|<uninit>|1>>
+    <associate|auto-10|<tuple|1.7|4>>
+    <associate|auto-11|<tuple|1.2|4>>
+    <associate|auto-12|<tuple|1.3|5>>
+    <associate|auto-13|<tuple|1.8|6>>
+    <associate|auto-14|<tuple|1.4|6>>
+    <associate|auto-15|<tuple|1.9|8>>
+    <associate|auto-16|<tuple|1.10|8>>
+    <associate|auto-17|<tuple|1.11|9>>
+    <associate|auto-18|<tuple|1.5|10>>
+    <associate|auto-19|<tuple|1.12|10>>
+    <associate|auto-2|<tuple|1|1>>
+    <associate|auto-20|<tuple|1.6|11>>
+    <associate|auto-21|<tuple|2|12>>
+    <associate|auto-22|<tuple|2.1|13>>
+    <associate|auto-23|<tuple|2.2|14>>
+    <associate|auto-24|<tuple|2.2.1|14>>
+    <associate|auto-25|<tuple|2.2.2|15>>
+    <associate|auto-26|<tuple|2.2.3|15>>
+    <associate|auto-27|<tuple|3|21>>
+    <associate|auto-28|<tuple|3.1|21>>
+    <associate|auto-29|<tuple|3.2|22>>
     <associate|auto-3|<tuple|1.1|1>>
-    <associate|auto-4|<tuple|1.2|1>>
-    <associate|auto-5|<tuple|1.3|2>>
-    <associate|auto-6|<tuple|1.4|2>>
-    <associate|auto-7|<tuple|1.5|3>>
-    <associate|auto-8|<tuple|1.6|3>>
-    <associate|auto-9|<tuple|1.7|3>>
-    <associate|cor:gc-roots-perturb|<tuple|2.57|?>>
+    <associate|auto-30|<tuple|3.1|23>>
+    <associate|auto-31|<tuple|3.2|25>>
+    <associate|auto-32|<tuple|3.3|27>>
+    <associate|auto-4|<tuple|1.1|2>>
+    <associate|auto-5|<tuple|1.2|2>>
+    <associate|auto-6|<tuple|1.3|2>>
+    <associate|auto-7|<tuple|1.4|3>>
+    <associate|auto-8|<tuple|1.5|3>>
+    <associate|auto-9|<tuple|1.6|4>>
+    <associate|cor:gc-roots-perturb|<tuple|3.10|27>>
     <associate|eq:1d-wave|<tuple|1.1|1>>
     <associate|eq:1d-wave-geom-id|<tuple|1.2|1>>
     <associate|eq:cont-tempered|<tuple|2.1|18>>
-    <associate|eq:pk-estimate|<tuple|2.2|?>>
-    <associate|prop:c8c-dense-s|<tuple|2.27|?>>
+    <associate|eq:pk-estimate|<tuple|3.1|24>>
+    <associate|prop:c8c-dense-s|<tuple|2.27|16>>
   </collection>
 </references>
 
 <\auxiliary>
   <\collection>
     <\associate|figure>
-      <tuple|normal|Sketch for the geometric identity.|<pageref|auto-2>>
+      <tuple|normal|Sketch for the geometric identity.|<pageref|auto-3>>
 
       <tuple|normal|Good and bad boundary conditions for the transport
-      equation.|<pageref|auto-4>>
+      equation.|<pageref|auto-5>>
 
-      <tuple|normal|Domain of dependence.|<pageref|auto-5>>
+      <tuple|normal|Domain of dependence.|<pageref|auto-6>>
 
       <tuple|normal|Different cases arising for the determination of the
-      domain of dependence.|<pageref|auto-6>>
+      domain of dependence.|<pageref|auto-7>>
 
       <tuple|normal|Series of snapshots of solutions with
-      <with|mode|<quote|math>|g=0>.|<pageref|auto-7>>
+      <with|mode|<quote|math>|g=0>.|<pageref|auto-8>>
 
       <tuple|normal|Initial boundary value problem. We can satisfy the
-      parallelogram identity using geometry.|<pageref|auto-8>>
+      parallelogram identity using geometry.|<pageref|auto-9>>
 
-      <tuple|normal|Discontinuous solutions in corners.|<pageref|auto-9>>
+      <tuple|normal|Discontinuous solutions in corners.|<pageref|auto-10>>
 
-      <tuple|normal||<pageref|auto-12>>
+      <tuple|normal||<pageref|auto-13>>
 
-      <tuple|normal|Huygens' principle.|<pageref|auto-14>>
+      <tuple|normal|Huygens' principle.|<pageref|auto-15>>
 
       <tuple|normal|How radial data <with|mode|<quote|math>|g> spreads in
-      time.|<pageref|auto-15>>
+      time.|<pageref|auto-16>>
 
       <tuple|normal|a) Spread of data with radial <with|mode|<quote|math>|f>.
-      b) The sharp dropoff in <with|mode|<quote|math>|u(0,t)>.|<pageref|auto-16>>
+      b) The sharp dropoff in <with|mode|<quote|math>|u(0,t)>.|<pageref|auto-17>>
 
       <tuple|normal|Domains of dependence, conceptually, for 2D and
-      3D.|<pageref|auto-18>>
+      3D.|<pageref|auto-19>>
 
-      <tuple|normal|Nice cartoon.|<pageref|auto-27>>
+      <tuple|normal|Nice cartoon.|<pageref|auto-30>>
 
-      <tuple|normal|Sketch.|<pageref|auto-28>>
+      <tuple|normal|Sketch.|<pageref|auto-31>>
 
-      <tuple|normal|Illustrative Sketch. :-)|<pageref|auto-29>>
+      <tuple|normal|Illustrative Sketch. :-)|<pageref|auto-32>>
     </associate>
     <\associate|toc>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|Table
+      of contents> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-1><vspace|0.5fn>
+
       <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|1<space|2spc>1-D
       Wave Equation> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-1><vspace|0.5fn>
+      <no-break><pageref|auto-2><vspace|0.5fn>
 
       <with|par-left|<quote|1.5fn>|1.1<space|2spc>Boundary conditions
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-3>>
+      <no-break><pageref|auto-4>>
 
       <with|par-left|<quote|1.5fn>|1.2<space|2spc>Method of Spherical Means
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-10>>
+      <no-break><pageref|auto-11>>
 
       <with|par-left|<quote|1.5fn>|1.3<space|2spc>Wave equation in
       <with|mode|<quote|math>|\<bbb-R\><rsup|n>>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-11>>
+      <no-break><pageref|auto-12>>
 
       <with|par-left|<quote|1.5fn>|1.4<space|2spc>Method of spherical means
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-13>>
+      <no-break><pageref|auto-14>>
 
       <with|par-left|<quote|1.5fn>|1.5<space|2spc>Hadamard's Method of
       Descent <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-17>>
+      <no-break><pageref|auto-18>>
 
       <with|par-left|<quote|1.5fn>|1.6<space|2spc>Hadamard's Solution for all
       odd <with|mode|<quote|math>|n\<geqslant\>3>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-19>>
+      <no-break><pageref|auto-20>>
 
       <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|2<space|2spc>Distributions>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-20><vspace|0.5fn>
+      <no-break><pageref|auto-21><vspace|0.5fn>
 
       <with|par-left|<quote|1.5fn>|2.1<space|2spc>The Schwartz Class
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-21>>
+      <no-break><pageref|auto-22>>
 
       <with|par-left|<quote|1.5fn>|2.2<space|2spc>Fourier Transform
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-22>>
+      <no-break><pageref|auto-23>>
 
       <with|par-left|<quote|3fn>|2.2.1<space|2spc>Basic Estimates
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-23>>
+      <no-break><pageref|auto-24>>
 
       <with|par-left|<quote|3fn>|2.2.2<space|2spc>Symmetries and the Fourier
       Transform <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-24>>
+      <no-break><pageref|auto-25>>
 
       <with|par-left|<quote|3fn>|2.2.3<space|2spc>Inversion Formula
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-25>>
-
-      <with|par-left|<quote|1.5fn>|2.3<space|2spc>Duhamel's Principle
-      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-26>>
+
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|3<space|2spc>More
+      about the Wave Equation> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-27><vspace|0.5fn>
+
+      <with|par-left|<quote|1.5fn>|3.1<space|2spc>Duhamel's Principle
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-28>>
+
+      <with|par-left|<quote|1.5fn>|3.2<space|2spc>Hyperbolicity and the
+      Standard Problem <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-29>>
     </associate>
   </collection>
 </auxiliary>
